@@ -4,7 +4,7 @@
 - Create main.yml and [paste the code](https://github.com/zakaria5729/flutter-github-action-explore/blob/main/.github/workflows/main.yml)
 - Create staging.yml and [paste the code](https://github.com/zakaria5729/flutter-github-action-explore/blob/main/.github/workflows/staging.yml)
 - Create two branch - staging and development
-- Add project secret token from app /settings/actions/new repository secret
+- Add project secret token from app /settings/secrets/actions/new repository secret
 
 # Project development machanism:
 - We are always working on **Development** branch and after completed a module, we will merge the code from **Development to Staging branch** with the staging server base url (staging branch's github action will generate android debug build apk with dev-1.0.x versin number).
